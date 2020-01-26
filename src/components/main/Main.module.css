@@ -1,0 +1,30 @@
+.main {
+    text-align: left;
+    height: 100vh;
+    background-color: #ffcfef;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.container {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    /*background-color: lavender;*/
+    font-weight: bold;
+}
+
+.photo {
+    height: 500px;
+    width: 400px;
+    background-color: lavender;
+}

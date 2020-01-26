@@ -1,0 +1,11 @@
+.navMenu {
+    width: 400px;
+    height: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.footer {
+    text-align: left;
+    height: 50vh;
+    background-color: #d2ffcf;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.container > span {
+    /*background-color: lavender;*/
+    font-weight: bold;
+}
+/*.socialIcon{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    !*align-items: center;*!*/
+/*}*/
+.socialIcon img{
+    height: 40px;
+    width: 40px;
+    background-color: lavender;
+    margin: 20px 10px;
+}
