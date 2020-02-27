@@ -1,19 +1,26 @@
 .main {
-    text-align: left;
-    height: 100vh;
-    background-color: #ffcfef;
+    padding: 50px 0 20px;
+    /*text-align: left;*/
+    /*height: 100vh;*/
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 .container {
-    width: 80%;
-    border: 1px solid;
+    width: 100%;
+    /*border: 1px solid;*/
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     align-items: center;
     flex-wrap: wrap;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 0px 20px;
 }
 
 .text {
@@ -24,7 +31,46 @@
 }
 
 .photo {
-    height: 500px;
-    width: 400px;
-    background-color: lavender;
+    height: 210px;
+    width: 210px;
+    background-size: cover;
+    max-width: 100%;
+    border-radius: 50%;
+    /*background-image: url(avtar-01.jpg);*/
+    background-image: url(photo.jpg);
+    /*background-color: lavender;*/
+    margin: 0px 20px;
 }
+h1{
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.link{
+    /*margin-top: 10px;*/
+}
+button{
+    color: #010101;
+    background-color: transparent;
+    border: 1px solid #CBCFD0;
+    color: #010101;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 50rem;
+    padding: 10px 15px;
+}
+button:hover{
+    color: #fff;
+    background-color: #010101;
+    border: 1px solid #010101;
+}
+.social{
+
+}
+
+@media (min-width: 992px){
+.container {
+    max-width: 960px;
+}}

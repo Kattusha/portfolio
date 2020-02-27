@@ -1,17 +1,23 @@
 .header {
-    text-align: left;
     height: 60px;
-    background-color: #9ee8ff;
+    width: 100%;
+    /*position: fixed;*/
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     /*border: 1px solid;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }}

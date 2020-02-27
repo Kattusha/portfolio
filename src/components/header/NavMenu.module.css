@@ -1,11 +1,15 @@
 .navMenu {
-    width: 400px;
-    height: 20px;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
 }
 
-.link {
+a {
+    padding: 0px 15px ;
+    /*font-weight: 600;*/
+    color: #010101;
     text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #5da4d9;
 }
