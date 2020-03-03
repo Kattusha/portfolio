@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-a {
+.navMenu a {
     padding: 0px 15px ;
     font-weight: 600;
     color: #010101;

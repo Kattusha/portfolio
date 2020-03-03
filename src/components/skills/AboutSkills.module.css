@@ -1,0 +1,94 @@
+.skills {
+    text-align: left;
+    min-height: 100vh;
+    /*background-color: #c6ffd7;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.container {
+    width: 80%;
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /*padding-top: 15px;*/
+    /*margin-top: 15px;*/
+}
+
+.aboutMe {
+    background-color: #ffffff;
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+
+    /*border: 1px solid red;*/
+}
+
+.aboutMe .title {
+    padding: 30px 30px;
+    /*margin-bottom: 30px;*/
+}
+
+.title h3 {
+    margin: 0;
+    box-shadow: inset 0 -7px 0 #FFFC7F;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.aboutMe .text {
+    padding: 0px 30px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.text dt {
+    letter-spacing: 0.2px;
+    color: #010101;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text dd {
+    margin-bottom: 10px;
+}
+.text dd a{
+    color: #010101;
+}
+
+.aboutSkills {
+    background-color: #ffffff;
+    height: 100%;
+    width: 65%;
+    margin-left: 15px;
+    /*border: 1px solid blue;*/
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }}
+
+@media (min-width: 576px) {
+    .text dt {
+        float: left;
+        width: 100px;
+        overflow: hidden;
+        clear: left;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 576px) {
+    .text dd {
+        margin-left: 112px;
+    }
+}
