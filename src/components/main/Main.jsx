@@ -15,9 +15,26 @@ function Main() {
                             I am frontend developer
                         </h1>
                     </div>
+                    <div className={styles.tags}>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>Git</li>
+                            <li>Agile (Scrum)</li>
+                        </ul>
+                    </div>
                     <div className={styles.link}>
-                        <button>Download Resume</button>
+                        <button>View Portfolio</button>
                         <div className={styles.social}>
+                            <a href="#" className="github">
+                                {/*<i className="fab fa-github"></i>*/}
+                            </a>
+                            <a href="#" className="github">
+                                {/*<i className="fab fa-github"></i>*/}
+                            </a>
 
                         </div>
                     </div>
