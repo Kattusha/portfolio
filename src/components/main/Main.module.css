@@ -61,6 +61,7 @@ h1{
     padding: 4px 10px;
     border: 1px solid #010101;
     border-radius: 4px;
+    font-weight: 500;
 }
 .link{
     /*margin-top: 10px;*/
