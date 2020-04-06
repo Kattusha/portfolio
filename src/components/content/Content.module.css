@@ -1,0 +1,75 @@
+.content {
+    padding-bottom: 40px;
+
+    composes: partPage from '../../index.css';
+}
+
+.container {
+    align-items: normal;
+
+    composes: container from '../../index.css';
+}
+
+.leftPart {
+    width: 360px;
+    margin-right: 15px;
+    /*border: 1px solid red;*/
+}
+
+.title {
+    padding: 30px 30px;
+    /*margin-bottom: 30px;*/
+}
+
+.aboutSkills h3 {
+    margin: 0;
+    box-shadow: inset 0 -2px 0 #03a87c; /* #FFFC7F;*/
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.text {
+    padding: 0px 30px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.aboutSkills {
+    background-color: #ffffff;
+    /*height: 100%;*/
+    width: 710px;
+    margin-left: 15px;
+    /*padding: 0px 30px;*/
+    /*border: 1px solid blue;*/
+}
+.aboutSkills .content{
+    padding: 0px 30px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.edubox h3 {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #03a87c;
+}
+.edubox{
+     margin-bottom: 25px;
+     border-bottom: 1px solid #ddd;
+     /*padding-bottom: 25px;*/
+}
+
+.edubox:last-child{
+    margin-bottom: 0;
+    border-bottom: 0;
+    /*padding-bottom: 25px;*/
+}

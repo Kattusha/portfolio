@@ -5,7 +5,6 @@
 }
 
 .container {
-    flex-wrap: wrap;
     justify-content: left;
 
     composes: container from '../../index.css';
@@ -69,6 +68,9 @@
     align-items: center;
 }
 
+.social{
+
+}
 
 @media (max-width: 768px) {
     .container {

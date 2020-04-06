@@ -1,0 +1,38 @@
+.text {
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.text dt {
+    letter-spacing: 0.2px;
+    color: #010101;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text dd {
+    margin-bottom: 10px;
+}
+.text dd a{
+    color: #010101;
+}
+
+@media (min-width: 576px) {
+    .text dt {
+        float: left;
+        width: 100px;
+        overflow: hidden;
+        clear: left;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 576px) {
+    .text dd {
+        margin-left: 112px;
+    }
+}
