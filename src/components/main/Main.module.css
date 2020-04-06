@@ -1,52 +1,54 @@
 .main {
-    padding: 60px 0px;
-    /*text-align: left;*/
-    /*height: 100vh;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 60px 0;
+
+    composes: partPage from '../../index.css';
 }
 
 .container {
-    width: 100%;
     /*border: 1px solid;*/
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 100%;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+
     /*align-items: center;*/
-    margin: 0px 20px;
+
+    margin: 0 20px;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
     /*background-color: lavender;*/
     font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .photo {
-    height: 210px;
     width: 210px;
-    background-size: cover;
     max-width: 100%;
+    height: 210px;
+    /*background-color: lavender;*/
+    margin: 0 20px;
     border-radius: 50%;
+
     /*background-image: url(avtar-01.jpg);*/
     background-image: url(photo.jpg);
-    /*background-color: lavender;*/
-    margin: 0px 20px;
+    background-size: cover;
 }
 
 h1 {
     font-size: 38px;
     font-weight: 400;
-    text-transform: capitalize;
     margin-bottom: 5px;
+    text-transform: capitalize;
 }
 
 .tags {
@@ -54,18 +56,19 @@ h1 {
 }
 
 .tags ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
 }
 
 .tags li {
+    font-weight: 500;
+    display: inline-block;
     /*background-color: rgba(1, 1, 1, 0.63);*/
     /*color: #fff;*/
-    margin: 0px 6px;
-    display: inline-block;
+
+    margin: 5px 5px;
     padding: 4px 10px;
     border: 1px solid #010101;
     border-radius: 4px;
-    font-weight: 500;
 }
 
 .link {
@@ -76,27 +79,25 @@ h1 {
 }
 
 button {
-    color: #010101;
-    background-color: transparent;
-    border: 1px solid #CBCFD0;
-    color: #010101;
     font-family: 'Quicksand';
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: 0.5px;
-    border-radius: 50rem;
     padding: 10px 15px;
+    letter-spacing: .5px;
+
+    color: #010101;
+    color: #010101;
+    border: 1px solid #cbcfd0;
+    border-radius: 50rem;
+    background-color: transparent;
 }
 
 button:hover {
     color: #fff;
-    background-color: #010101;
     border: 1px solid #010101;
+    background-color: #010101;
 }
 
-.social {
-
-}
 
 @media (max-width: 767px) {
     h1 {
@@ -108,7 +109,8 @@ button:hover {
     h1 {
         text-align: center;
     }
-    .link{
+
+    .link {
         justify-content: center;
     }
 }
@@ -116,5 +118,11 @@ button:hover {
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1100px;
     }
 }

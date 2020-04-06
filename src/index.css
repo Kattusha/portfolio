@@ -1,14 +1,47 @@
 body {
-  margin: 0;
-  font-family: 'Quicksand', Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  color: #010101;
-  letter-spacing: 0.5px;
-  background-color: #efefef;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: .5px;
+    color: #010101;
+    background-color: #efefef;
 }
 
 /*@font-face {*/
 /*  font-family: 'Quicksand';*/
 /*  src: url('font.woff2');*/
 /*}*/
+
+/* часть/блок страницы
+1. header, или верхний блок, или шапка сайта
+2. content или основная область сайта
+3. footer или подвал
+*/
+.partPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*контейнер для содержимого каждой части станицы*/
+.container {
+    /*border: 1px solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1100px;
+  }
+}
