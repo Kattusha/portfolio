@@ -1,0 +1,87 @@
+.authorCard {
+    padding: 60px 0;
+
+    composes: partPage from '../../index.css';
+}
+
+.container {
+    flex-wrap: wrap;
+    justify-content: left;
+
+    composes: container from '../../index.css';
+}
+
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin: 0 35px;
+
+    border-radius: 50%;
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+
+.authorContent {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 20px;
+}
+
+.authorName {
+    font-size: 38px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+
+    text-transform: capitalize;
+}
+
+.skillTags {
+    margin-bottom: 10px;
+}
+
+.skillTags ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-inline-start: 0;
+}
+
+.skillTags li {
+    font-weight: 500;
+
+    display: inline-block;
+    /*background-color: rgba(1, 1, 1, 0.63);*/
+    /*color: #fff;*/
+
+    margin: 5px 5px;
+    padding: 4px 10px;
+
+    border: 1px solid #010101;
+    border-radius: 4px;
+}
+
+.authorLink {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        justify-content: center;
+    }
+
+    .authorName {
+        font-size: 28px;
+
+        text-align: center;
+    }
+
+    .authorLink {
+        justify-content: center;
+    }
+}

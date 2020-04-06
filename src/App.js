@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from "./components/header/Header";
-import Main from "./components/main/Main";
+import AuthorCard from "./components/main/AuthorCard";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Slogan from "./components/slogan/Slogan";
@@ -13,7 +13,7 @@ function App() {
     return (
         <>
             <Header/>
-            <Main/>
+            <AuthorCard/>
             {/*<Skills />*/}
             <AboutSkills/>
             <Projects/>

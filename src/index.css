@@ -30,18 +30,38 @@ body {
     /*border: 1px solid;*/
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     width: 100%;
 }
 
-@media (min-width: 1024px) {
-  .container {
-    max-width: 960px;
-  }
+button {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 600;
+
+    padding: 10px 15px;
+
+    letter-spacing: .5px;
+
+    color: #010101;
+    border: 1px solid #cbcfd0;
+    border-radius: 50rem;
+    background-color: transparent;
 }
 
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1100px;
-  }
+button:hover {
+    color: #fff;
+    border: 1px solid #010101;
+    background-color: #010101;
+}
+
+/*@media (min-width: 992px) {*/
+/*    .container {*/
+/*        max-width: 960px;*/
+/*    }*/
+/*}*/
+
+@media (min-width: 1040px) {
+    .container {
+        max-width: 1100px;
+    }
 }

@@ -7,3 +7,9 @@
 
     composes: partPage from '../../index.css';
 }
+
+.container {
+    justify-content: flex-end;
+
+    composes: container from '../../index.css';
+}
