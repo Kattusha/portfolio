@@ -10,20 +10,18 @@ import Footer from "./components/footer/Footer";
 import AboutSkills from "./components/skills/AboutSkills";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="portfolio">
-        <Header />
-        <Main />
-        {/*<Skills />*/}
-        <AboutSkills/>
-        <Projects />
-        <Slogan />
-        <Contacts />
-        <Footer />
-      </div>
-    </div>
-  );
+    return (
+        <>
+            <Header/>
+            <Main/>
+            {/*<Skills />*/}
+            <AboutSkills/>
+            <Projects/>
+            <Slogan/>
+            <Contacts/>
+            <Footer/>
+        </>
+    );
 }
 
 export default App;

@@ -1,6 +1,6 @@
 .skills {
     text-align: left;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     /*background-color: #c6ffd7;*/
     display: flex;
     justify-content: center;
@@ -20,27 +20,28 @@
 
 .aboutMe {
     background-color: #ffffff;
-    height: 100%;
+    /*height: 100%;*/
     width: 35%;
     margin-right: 15px;
 
     /*border: 1px solid red;*/
 }
 
-.aboutMe .title {
+.title {
     padding: 30px 30px;
     /*margin-bottom: 30px;*/
 }
 
 .title h3 {
     margin: 0;
-    box-shadow: inset 0 -7px 0 #FFFC7F;
+    box-shadow: inset 0 -2px 0 #03a87c; /* #FFFC7F;*/
     font-size: 21px;
     letter-spacing: 0.5px;
     font-weight: 700;
+    display: inline-block;
 }
 
-.aboutMe .text {
+.text {
     padding: 0px 30px;
     line-height: 1.5;
     color: #212529;
@@ -64,16 +65,40 @@
 
 .aboutSkills {
     background-color: #ffffff;
-    height: 100%;
+    /*height: 100%;*/
     width: 65%;
     margin-left: 15px;
+    /*padding: 0px 30px;*/
     /*border: 1px solid blue;*/
 }
+.aboutSkills .content{
+    padding: 0px 30px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
-@media (min-width: 992px){
-    .container {
-        max-width: 960px;
-    }}
+.content h3 {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #03a87c;
+}
+.edubox{
+     margin-bottom: 25px;
+     border-bottom: 1px solid #ddd;
+     /*padding-bottom: 25px;*/
+}
+
+.edubox:last-child{
+    margin-bottom: 0;
+    border-bottom: 0;
+    /*padding-bottom: 25px;*/
+}
 
 @media (min-width: 576px) {
     .text dt {
@@ -90,5 +115,17 @@
 @media (min-width: 576px) {
     .text dd {
         margin-left: 112px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1100px;
     }
 }
