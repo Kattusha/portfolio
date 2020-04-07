@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Content.module.css';
 import PersonalInfo from "./leftPart/PersonalInfo";
 import AboutMe from "./leftPart/AboutMe";
+import EducationInfo from "./rightPart/EducationInfo";
 
 function Content() {
     return (
@@ -12,25 +13,7 @@ function Content() {
                     <PersonalInfo />
                 </div>
                 <div className={styles.rightPart}>
-                    <div className={styles.aboutSkills}>
-                        <div className={styles.title}>
-                            <h3>Education</h3>
-                        </div>
-                        <div className={styles.text}>
-                            <div className={styles.edubox}>
-                                <h3>Front-end developer (ReactJS)<br/>
-                                    <span>it-incubator.by</span>
-                                </h3>
-                                <p>JAN 2020 - MAY 2020</p>
-                            </div>
-                            <div className={styles.edubox}>
-                                <h3>Computer software engineer<br/>
-                                    <span>Belarusian State University, Faculty of Applied Mathematics and Computer Scienc</span>
-                                </h3>
-                                <p>NOV 2005 - FEB 2010</p>
-                            </div>
-                        </div>
-                    </div>
+                    <EducationInfo />
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ function PersonalInfo() {
             <div className="title">
                 <h3>Personal Info</h3>
             </div>
-            <div className={styles.text}>
+            <div>
                 <dl>
                     <dt>Full Name</dt>
                     <dd>Kate Tychuna</dd>
