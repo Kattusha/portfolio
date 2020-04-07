@@ -55,7 +55,7 @@ span{
 }
 
 .leftBox{
-    padding: 2rem;;
+    padding: 2rem;
     background: #fff;
     margin-bottom: 15px;
 }
@@ -101,7 +101,57 @@ button:hover {
     background-color: #010101;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 576px) {*/
+/*    .container {*/
+/*        max-width: 540px;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 984px) {
+    .leftBox {
+        padding: 1.5rem;
+    }
+    .rightBox{
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .leftBox {
+        padding: 1.3rem;
+    }
+    .rightBox{
+        padding: 1.6rem;
+    }
+}
+
+@media (max-width: 822px) {
+    .container {
+        max-width: 100%;
+    }
+    .leftBox {
+        padding: 2.5rem;
+    }
+    .rightBox{
+        padding: 2.5rem;
+    }
+}
+
+@media (min-width: 425px) {
+    .container {
+        /*max-width: 900px;*/
+        padding: 0 2.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        /*max-width: 900px;*/
+        padding: 0 1.5%;
+    }
+}
+
+@media (min-width: 980px) {
     .container {
         max-width: 960px;
     }

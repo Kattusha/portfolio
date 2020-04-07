@@ -10,13 +10,28 @@
 }
 
 .leftPart {
-    width: 360px;
-    margin-right: 15px;
+    /*width: 360px;*/
+    width: 33.3636%;
+    /*margin-right: 15px;*/
+    margin-right: 1.363636%;
     /*border: 1px solid red;*/
 }
 
 .rightPart{
-    width: 710px;
-    margin-left: 15px;
+    /*width: 710px;*/
+    width: 63.6363%;
+    /*margin-left: 15px;*/
+    margin-left: 1.363636%;
     /*border: 1px solid blue;*/
+}
+
+@media (max-width: 822px) {
+    .leftPart {
+        width: 100%;
+        margin-right: 0;
+    }
+    .rightPart{
+        width: 100%;
+        margin-left: 0;
+    }
 }

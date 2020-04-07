@@ -39,5 +39,24 @@
     color: #03a87c;
 }
 
+@media (max-width: 929px) {
+    .yearsItem {
+        letter-spacing: normal;
+    }
+}
+
+@media (max-width: 822px) {
+    .yearsItem {
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 620px) {
+    .yearsItem {
+        letter-spacing: normal;
+    }
+}
+
+
 
 
