@@ -1,0 +1,43 @@
+.item {
+    display: flex;
+
+    margin-bottom: 30px;
+    /*flex-wrap: wrap;*/
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.leftPartItem {
+    width: 20%;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.rightPartItem {
+    width: 80%;
+}
+
+.yearsItem {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 6px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: rgba(3, 168, 124, 1); /* #5da4d9;*/
+}
+
+.rightPartItem h3 {
+    font-weight: 600;
+}
+
+.rightPartItem span {
+    color: #03a87c;
+}
+
+
+
