@@ -1,11 +1,16 @@
 import React from 'react';
 import styles from './EducationInfo.module.css';
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {fas} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
+library.add(fas);
 
 function EducationInfo() {
     return (
         <div className="rightBox">
             <div className="title">
-                <h2>Education</h2>
+                <h2><FontAwesomeIcon icon={['fas', 'book-open']} className="icon"/>Education</h2>
             </div>
             <div className="text">
                 <div className={styles.educationBox}>

@@ -23,7 +23,7 @@ h3 {
     font-weight: 700;
 }
 
-span{
+span {
     font-size: 14px;
     font-weight: 500;
 }
@@ -54,13 +54,13 @@ span{
     width: 100%;
 }
 
-.leftBox{
+.leftBox {
     padding: 2rem;
     background: #fff;
     margin-bottom: 15px;
 }
 
-.rightBox{
+.rightBox {
     padding: 2.5rem;
     background: #fff;
     margin-bottom: 15px;
@@ -101,6 +101,18 @@ button:hover {
     background-color: #010101;
 }
 
+.icon {
+    position: absolute;
+    color: rgba(60, 64, 89, 0.08);
+    font-size: 160px; /*160px*/
+    margin: -20px 20px;
+}
+
+.icon-button {
+    font-size: 14px;
+    margin-right: 7px;
+}
+
 /*@media (min-width: 576px) {*/
 /*    .container {*/
 /*        max-width: 540px;*/
@@ -111,7 +123,8 @@ button:hover {
     .leftBox {
         padding: 1.5rem;
     }
-    .rightBox{
+
+    .rightBox {
         padding: 2rem;
     }
 }
@@ -120,7 +133,8 @@ button:hover {
     .leftBox {
         padding: 1.3rem;
     }
-    .rightBox{
+
+    .rightBox {
         padding: 1.6rem;
     }
 }
@@ -129,10 +143,12 @@ button:hover {
     .container {
         max-width: 100%;
     }
+
     .leftBox {
         padding: 2.5rem;
     }
-    .rightBox{
+
+    .rightBox {
         padding: 2.5rem;
     }
 }

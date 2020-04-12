@@ -1,11 +1,17 @@
 import React from 'react';
 import styles from './EmploymentInfo.module.css';
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {fas} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
+library.add(fas);
 
 function EmploymentInfo() {
     return (
         <div className="rightBox">
             <div className="title">
-                <h2>Employment</h2>
+                <h2><FontAwesomeIcon icon={['fas', 'briefcase']} className="icon"/>
+                Employment</h2>
             </div>
             <div className="text">
                 <div className={styles.item}>
