@@ -78,7 +78,16 @@
 }
 
 a.github:hover, a.github:active{
-    color: #f58541;
+    color: #6e5494;
+}
+a.linkedin:hover, a.linkedin:active{
+    color: #007dbb;
+}
+a.facebook:hover, a.facebook:active{
+    color: #3b5998;
+}
+a.instagram:hover, a.instagram:active{
+    color: #bc2a8d;
 }
 
 @media (max-width: 768px) {

@@ -34,11 +34,16 @@ function AuthorCard() {
                         <button><FontAwesomeIcon icon={['fas', 'th-large']} className="icon-button"/>View Portfolio</button>
                         <div className={styles.social}>
                             <a href="https://github.com/Kattusha" className={styles.github}>
-                                {/* hover = #F4CBB2;*/}
                                 <FontAwesomeIcon icon={['fab', 'github']}/>
                             </a>
-                            <a href="#" className="github">
-                                {/*<i className="fab fa-github"></i>*/}
+                            <a href="#" className={styles.linkedin}>
+                                <FontAwesomeIcon icon={['fab', 'linkedin']}/>
+                            </a>
+                            <a href="#" className={styles.facebook}>
+                                <FontAwesomeIcon icon={['fab', 'facebook']}/>
+                            </a>
+                            <a href="#" className={styles.instagram}>
+                                <FontAwesomeIcon icon={['fab', 'instagram']}/>
                             </a>
 
                         </div>
