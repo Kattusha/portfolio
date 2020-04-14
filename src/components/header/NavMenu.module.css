@@ -5,7 +5,7 @@
 }
 
 .navMenu a {
-    padding: 0px 15px ;
+    padding: 0px 15px;
     font-weight: 600;
     color: #010101;
     text-decoration: none;
@@ -15,4 +15,10 @@ a:hover, a:active {
     /*color: #5da4d9;*/
     color: #03a87c;
     /*color: rgba(2, 158, 116, 1);*/
+}
+
+@media (max-width: 375px) {
+    .navMenu a {
+        padding: 0px 10px ;
+    }
 }
