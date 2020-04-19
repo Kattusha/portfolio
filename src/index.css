@@ -23,6 +23,14 @@ h3 {
     font-weight: 700;
 }
 
+h4 {
+    margin-bottom: 16px;
+    /*font-size: 18px;*/
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
 span {
     font-size: 14px;
     font-weight: 500;
@@ -102,6 +110,19 @@ button:hover {
     background-color: #010101;
 }
 
+.buttonBlue{
+    color: #fff;
+    background-color: #03a87c;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 20px 10px;
+}
+.buttonBlue:hover {
+    color: #212529;
+    border-color: #03a87c;
+    box-shadow: 0 0 4px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.24);
+    background-color: #fff;
+}
 .icon {
     position: absolute;
     color: rgba(60, 64, 89, 0.08);
@@ -112,6 +133,11 @@ button:hover {
 .icon-button {
     font-size: 14px;
     margin-right: 7px;
+}
+
+.littleIcon{
+    font-size: 16px;
+    margin-right: 10px;
 }
 
 /*@media (min-width: 576px) {*/
