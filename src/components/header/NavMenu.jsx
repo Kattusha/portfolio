@@ -7,7 +7,7 @@ function NavMenu() {
             <a href="/" >Home</a>
             {/*<a href="/#" >My experience</a>*/}
             {/*<a href="" >My skills</a>*/}
-            <a href="/portfolio" className={styles.linkWorks} >My works</a>
+            <a href="/works" className={styles.linkWorks} >My works</a>
             <a href="/#contact" >Contact Me</a>
         </div>
     );

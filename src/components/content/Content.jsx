@@ -24,7 +24,7 @@ function Content() {
                     </div>
                 </Route>
 
-                <Route path='/portfolio'>
+                <Route path='/works'>
                     <div className={styles.rightPart}>
                         <Portfolio />
                     </div>
