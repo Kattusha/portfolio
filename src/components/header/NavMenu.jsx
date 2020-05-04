@@ -6,9 +6,9 @@ function NavMenu() {
         <div className={styles.navMenu}>
             {/*<a href="" >About Me</a>*/}
             {/*<a href="" >My experience</a>*/}
-            <a href="" >My skills</a>
-            <a href="" >My works</a>
-            <a href="" >Contact Me</a>
+            {/*<a href="" >My skills</a>*/}
+            <a href="#portfolio" >My works</a>
+            <a href="#contact" >Contact Me</a>
         </div>
     );
 }

@@ -9,54 +9,58 @@ library.add(far, fas);
 
 function ContactInfo() {
     return (
-        <div className="rightBox">
-            <div className="title">
-                <h2><FontAwesomeIcon icon={['fas', 'edit']} className="icon"/>
-                    Contact</h2>
-            </div>
-            <div className="text">
-                <div className={styles.contacts}>
-                    <div className={styles.info}>
-                        <div>
-                            <h4>Call Me</h4>
-                            <p><FontAwesomeIcon icon={['fas', 'mobile-alt']} className="littleIcon"/>
-                                Mobile : (255) 985-1256</p>
+        <>
+            <a name="contact"/>
+            <div className="rightBox">
+                <div className="titleWithColor">
+                    <h2>
+                        {/*<FontAwesomeIcon icon={['fas', 'edit']} className="icon"/>*/}
+                        Contact</h2>
+                </div>
+                <div className="text">
+                    <div className={styles.contacts}>
+                        <div className={styles.info}>
+                            <div>
+                                <h4>Call Me</h4>
+                                <p><FontAwesomeIcon icon={['fas', 'mobile-alt']} className="littleIcon"/>
+                                    Mobile : (255) 985-1256</p>
+                            </div>
+                            <div>
+                                <h4>Mail Me &amp; Web</h4>
+                                <p><FontAwesomeIcon icon={['far', 'envelope']} className="littleIcon"/>
+                                    Email : admin0955@gmail.com</p>
+                            </div>
                         </div>
                         <div>
-                            <h4>Mail Me &amp; Web</h4>
-                            <p><FontAwesomeIcon icon={['far', 'envelope']} className="littleIcon"/>
-                                Email : admin0955@gmail.com</p>
+                            <form>
+                                <div className={styles.formBlock}>
+                                    <label htmlFor="name">Your Name</label>
+                                    <input type="text" id="name" className={styles.formInput}/>
+                                </div>
+
+                                <div className={styles.formBlock}>
+                                    <label htmlFor="email">Email address</label>
+                                    <input type="text" id="email" className={styles.formInput}/>
+                                </div>
+
+                                {/*<div className={styles.formBlock}>*/}
+                                {/*    <label htmlFor="subject">Subject</label>*/}
+                                {/*    <input type="text" id="subject" className={styles.formInput}/>*/}
+                                {/*</div>*/}
+
+                                <div className={styles.formBlock}>
+                                    <label htmlFor="comment">Message for Me</label>
+                                    <textarea rows="6" id="comment" className={styles.formInput}></textarea>
+                                </div>
+
+                                <button className="buttonBlue">Send Message</button>
+                            </form>
                         </div>
-                    </div>
-                    <div>
-                        <form>
-                            <div className={styles.formBlock}>
-                                <label htmlFor="name">Your Name</label>
-                                <input type="text" id="name" className={styles.formInput}/>
-                            </div>
-
-                            <div className={styles.formBlock}>
-                                <label htmlFor="email">Email address</label>
-                                <input type="text" id="email" className={styles.formInput}/>
-                            </div>
-
-                            <div className={styles.formBlock}>
-                                <label htmlFor="subject">Subject</label>
-                                <input type="text" id="subject" className={styles.formInput}/>
-                            </div>
-
-                            <div className={styles.formBlock}>
-                                <label htmlFor="comment">Message</label>
-                                <textarea rows="6" id="comment" className={styles.formInput}></textarea>
-                            </div>
-
-                            <button className="buttonBlue">Send Message</button>
-                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-);
+        </>
+    );
 }
 
 export default ContactInfo;
