@@ -31,18 +31,21 @@ function AuthorCard() {
                         </ul>
                     </div>
                     <div className={styles.authorLink}>
-                        <button><FontAwesomeIcon icon={['fas', 'th-large']} className="icon-button"/>View Portfolio</button>
+                        <button>
+                            <FontAwesomeIcon icon={['fas', 'arrow-circle-down']} className="icon-button"/>
+                            Download Resume
+                        </button>
                         <div className={styles.social}>
                             <a href="https://github.com/Kattusha" className={styles.github}>
                                 <FontAwesomeIcon icon={['fab', 'github']}/>
                             </a>
-                            <a href="#" className={styles.linkedin}>
+                            <a href="" className={styles.linkedin}>
                                 <FontAwesomeIcon icon={['fab', 'linkedin']}/>
                             </a>
-                            <a href="#" className={styles.facebook}>
+                            <a href="" className={styles.facebook}>
                                 <FontAwesomeIcon icon={['fab', 'facebook']}/>
                             </a>
-                            <a href="#" className={styles.instagram}>
+                            <a href="" className={styles.instagram}>
                                 <FontAwesomeIcon icon={['fab', 'instagram']}/>
                             </a>
 

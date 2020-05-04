@@ -53,7 +53,8 @@ function ContactInfo() {
                                     <textarea rows="6" id="comment" className={styles.formInput}></textarea>
                                 </div>
 
-                                <button className="buttonBlue">Send Message</button>
+                                {/*<button className="buttonBlue">Send Message</button>*/}
+                                <button>Send Message</button>
                             </form>
                         </div>
                     </div>

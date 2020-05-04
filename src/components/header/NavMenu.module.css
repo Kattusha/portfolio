@@ -9,12 +9,23 @@
     font-weight: 600;
     color: #010101;
     text-decoration: none;
+    border-bottom: 1px solid #fff;
 }
 
-a:hover, a:active {
+a.linkWorks{
+    font-weight: bold;
+    /*color: #03a87c;*/
+}
+
+/*a:hover, a:active {*/
+a:hover{
     /*color: #5da4d9;*/
     color: #03a87c;
+    /*border-bottom: 1px solid #03a87c;*/
     /*color: rgba(2, 158, 116, 1);*/
+}
+a:active {
+    /*border-bottom: 1px solid #03a87c;*/
 }
 
 @media (max-width: 375px) {

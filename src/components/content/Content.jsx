@@ -4,8 +4,9 @@ import PersonalInfo from "./leftPart/PersonalInfo";
 import AboutMe from "./leftPart/AboutMe";
 import EducationInfo from "./rightPart/EducationInfo";
 import EmploymentInfo from "./rightPart/EmploymentInfo";
-import Portfolio from "./rightPart/Portfolio";
 import ContactInfo from "./rightPart/ContactInfo";
+import {Route} from "react-router-dom";
+import Portfolio from "./rightPart/Portfolio";
 
 function Content() {
     return (
@@ -15,12 +16,19 @@ function Content() {
                     <AboutMe />
                     <PersonalInfo />
                 </div>
-                <div className={styles.rightPart}>
-                    <EmploymentInfo />
-                    <EducationInfo />
-                    <Portfolio />
-                    <ContactInfo />
-                </div>
+                <Route exact path='/'>
+                    <div className={styles.rightPart}>
+                        <EmploymentInfo />
+                        <EducationInfo />
+                        <ContactInfo />
+                    </div>
+                </Route>
+
+                <Route path='/portfolio'>
+                    <div className={styles.rightPart}>
+                        <Portfolio />
+                    </div>
+                </Route>
             </div>
         </div>
     );
