@@ -21,13 +21,23 @@ function AuthorCard() {
                     </h1>
                     <div className={styles.skillTags}>
                         <ul>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
+                            <li>JavaScript ES5/ES6</li>
+                            <li>TypeScript</li>
                             <li>React</li>
-                            <li>Redux</li>
-                            <li>Git</li>
-                            <li>Agile (Scrum)</li>
+                            <li>Redux/Flux</li>
+                            <li>Hooks</li>
+                            <li>Redux-form</li>
+                            <li>SPA</li>
+                            <li>Rest API</li>
+                            <li>axios</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>Module css</li>
+                            <li>Styled Components</li>
+                            <li>npm, yarn</li>
+                            <li>git</li>
+                            <li>C#</li>
+                            <li>SQL</li>
+                            <li>Agile SCRUM</li>
                         </ul>
                     </div>
                     <div className={styles.authorLink}>
@@ -42,13 +52,12 @@ function AuthorCard() {
                             <a href="" className={styles.linkedin}>
                                 <FontAwesomeIcon icon={['fab', 'linkedin']}/>
                             </a>
-                            <a href="" className={styles.facebook}>
-                                <FontAwesomeIcon icon={['fab', 'facebook']}/>
-                            </a>
-                            <a href="" className={styles.instagram}>
-                                <FontAwesomeIcon icon={['fab', 'instagram']}/>
-                            </a>
-
+                            {/*<a href="" className={styles.facebook}>*/}
+                            {/*    <FontAwesomeIcon icon={['fab', 'facebook']}/>*/}
+                            {/*</a>*/}
+                            {/*<a href="" className={styles.instagram}>*/}
+                            {/*    <FontAwesomeIcon icon={['fab', 'instagram']}/>*/}
+                            {/*</a>*/}
                         </div>
                     </div>
                 </div>

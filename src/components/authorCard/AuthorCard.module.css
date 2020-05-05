@@ -25,6 +25,7 @@
     flex-direction: column;
 
     margin: 0 20px;
+    width: 70%;
 }
 
 .authorName {
@@ -42,9 +43,9 @@
 
 .skillTags ul {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
 
     padding-inline-start: 0;
 }

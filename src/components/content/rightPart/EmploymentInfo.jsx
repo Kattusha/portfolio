@@ -11,7 +11,7 @@ function EmploymentInfo() {
         <div className="rightBox">
             <div className="title">
                 <h2><FontAwesomeIcon icon={['fas', 'briefcase']} className="icon"/>
-                Employment</h2>
+                    Experience</h2>
             </div>
             <div className="text">
                 <div className={styles.item}>

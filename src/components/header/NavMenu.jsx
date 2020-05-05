@@ -6,7 +6,7 @@ function NavMenu() {
         <div className={styles.navMenu}>
             <a href="/portfolio" >Home</a>
             {/*<a href="/#" >My experience</a>*/}
-            {/*<a href="" >My skills</a>*/}
+            <a href="/portfolio/#skills" >My skills</a>
             <a href="/portfolio/works" className={styles.linkWorks} >My works</a>
             <a href="/portfolio/#contact" >Contact Me</a>
         </div>

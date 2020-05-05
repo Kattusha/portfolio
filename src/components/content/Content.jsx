@@ -7,6 +7,7 @@ import EmploymentInfo from "./rightPart/EmploymentInfo";
 import ContactInfo from "./rightPart/ContactInfo";
 import {Route} from "react-router-dom";
 import Portfolio from "./rightPart/Portfolio";
+import SkillsInfo from "./rightPart/SkillsInfo";
 
 function Content() {
     return (
@@ -19,6 +20,7 @@ function Content() {
                 <Route exact path='/portfolio'>
                     <div className={styles.rightPart}>
                         <EmploymentInfo />
+                        <SkillsInfo />
                         <EducationInfo />
                         <ContactInfo />
                     </div>
