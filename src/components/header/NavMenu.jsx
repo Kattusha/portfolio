@@ -4,11 +4,11 @@ import styles from './NavMenu.module.css';
 function NavMenu() {
     return (
         <div className={styles.navMenu}>
-            <a href="/" >Home</a>
+            <a href="/portfolio" >Home</a>
             {/*<a href="/#" >My experience</a>*/}
             {/*<a href="" >My skills</a>*/}
-            <a href="/works" className={styles.linkWorks} >My works</a>
-            <a href="/#contact" >Contact Me</a>
+            <a href="/portfolio/works" className={styles.linkWorks} >My works</a>
+            <a href="/portfolio/#contact" >Contact Me</a>
         </div>
     );
 }
