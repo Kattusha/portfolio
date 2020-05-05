@@ -16,7 +16,7 @@ function Content() {
                     <AboutMe />
                     <PersonalInfo />
                 </div>
-                <Route exact path='/portfolio'>
+                <Route path='/'>
                     <div className={styles.rightPart}>
                         <EmploymentInfo />
                         <EducationInfo />
@@ -24,7 +24,7 @@ function Content() {
                     </div>
                 </Route>
 
-                <Route path='/portfolio/works'>
+                <Route path='/works'>
                     <div className={styles.rightPart}>
                         <Portfolio />
                     </div>
