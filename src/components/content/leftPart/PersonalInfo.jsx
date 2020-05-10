@@ -16,16 +16,22 @@ function PersonalInfo() {
                     <dt>Address</dt>
                     <dd>Belarus, Minsk</dd>
                     <dt>E-mail</dt>
-                    <dd><a href="kajra.life@gmail.com">admin@gmail.com</a></dd>
+                    <dd>tchn.kate@gmail.com</dd>
                     <dt>Phone</dt>
                     <dd>+375 (29) 583 20 62</dd>
                     <dt>Skype</dt>
                     <dd>Quaneila</dd>
                     <dt>Telegram</dt>
                     <dd>Kattusha</dd>
-                    <dt>Freelance</dt>
-                    <dd>Available</dd>
                 </dl>
+                <div className={styles.freeAvailable}>
+                    {/*<div className={styles.preloader}></div>*/}
+                    <div className={styles.circle}></div>
+                    <a href="#contact">
+                        <span>AVAILABLE FOR FREELANCE</span>
+                    </a>
+                </div>
+
             </div>
         </div>
     );

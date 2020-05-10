@@ -23,12 +23,12 @@ function ContactInfo() {
                             <div>
                                 <h4>Call Me</h4>
                                 <p><FontAwesomeIcon icon={['fas', 'mobile-alt']} className="littleIcon"/>
-                                    Mobile : (255) 985-1256</p>
+                                    Mobile : +375 (29) 583-20-62</p>
                             </div>
                             <div>
                                 <h4>Mail Me &amp; Web</h4>
                                 <p><FontAwesomeIcon icon={['far', 'envelope']} className="littleIcon"/>
-                                    Email : admin0955@gmail.com</p>
+                                    Email : tchn.kate@gmail.com</p>
                             </div>
                         </div>
                         <div>
