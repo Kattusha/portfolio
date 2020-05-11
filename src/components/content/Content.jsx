@@ -5,7 +5,7 @@ import AboutMe from "./leftPart/AboutMe";
 import EducationInfo from "./rightPart/EducationInfo";
 import EmploymentInfo from "./rightPart/EmploymentInfo";
 import ContactInfo from "./rightPart/ContactInfo";
-import {Route} from "react-router-dom";
+import {Redirect, Route} from "react-router-dom";
 import Portfolio from "./rightPart/Portfolio";
 import SkillsInfo from "./rightPart/SkillsInfo";
 
@@ -17,6 +17,9 @@ function Content() {
                     <AboutMe />
                     <PersonalInfo />
                 </div>
+                <Route exact path={'/'}>
+                    <Redirect to={'/portfolio'}/>
+                </Route>
                 <Route exact path='/portfolio'>
                     <div className={styles.rightPart}>
                         <EmploymentInfo />
