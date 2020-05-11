@@ -22,8 +22,8 @@ function Content() {
                 </Route>
                 <Route exact path='/portfolio'>
                     <div className={styles.rightPart}>
-                        <EmploymentInfo />
                         <SkillsInfo />
+                        <EmploymentInfo />
                         <EducationInfo />
                         <ContactInfo />
                     </div>

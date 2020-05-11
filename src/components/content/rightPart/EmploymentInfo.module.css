@@ -18,6 +18,9 @@
 .rightPartItem {
     width: 80%;
 }
+.rightPartItem p{
+    font-size: 14px;
+}
 
 .yearsItem {
     font-size: 13px;

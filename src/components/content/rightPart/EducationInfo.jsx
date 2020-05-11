@@ -23,7 +23,7 @@ function EducationInfo() {
                     <h3>Computer software engineer<br/>
                         <span>Belarusian State University, Faculty of Applied Mathematics and Computer Scienc</span>
                     </h3>
-                    <p>NOV 2005 - FEB 2010</p>
+                    <p>2005 - 2010</p>
                 </div>
             </div>
         </div>
