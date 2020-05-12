@@ -10,7 +10,7 @@ library.add(far, fas);
 function ContactInfo() {
     return (
         <>
-            <a name="contact"/>
+            <div id="contact"/>
             <div className="rightBox">
                 <div className="titleWithColor">
                     <h2>

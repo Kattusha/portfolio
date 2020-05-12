@@ -9,6 +9,10 @@ import {Redirect, Route} from "react-router-dom";
 import Portfolio from "./rightPart/Portfolio";
 import SkillsInfo from "./rightPart/SkillsInfo";
 
+// all project paths
+export const HOME_PATH = '/home';
+export const WORK_PATH = '/work';
+
 function Content() {
     return (
         <div className={styles.content}>
@@ -17,10 +21,8 @@ function Content() {
                     <AboutMe />
                     <PersonalInfo />
                 </div>
-                <Route exact path={'/'}>
-                    <Redirect to={'/portfolio'}/>
-                </Route>
-                <Route exact path='/portfolio'>
+                <Route exact path={'/'} render={() => <Redirect to={HOME_PATH}/>}/>
+                <Route exact path={HOME_PATH}>
                     <div className={styles.rightPart}>
                         <SkillsInfo />
                         <EmploymentInfo />
@@ -29,7 +31,7 @@ function Content() {
                     </div>
                 </Route>
 
-                <Route path='/portfolio/works'>
+                <Route path={WORK_PATH}>
                     <div className={styles.rightPart}>
                         <Portfolio />
                     </div>

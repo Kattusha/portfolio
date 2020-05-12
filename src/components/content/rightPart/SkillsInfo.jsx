@@ -9,7 +9,7 @@ library.add(fas);
 function SkillsInfo() {
     return (
         <>
-            <a name="skills"/>
+            <div id="skills"/>
             <div className="rightBox">
                 <div className="title">
                     <h2><FontAwesomeIcon icon={['fas', 'check-double']} className="icon"/>
