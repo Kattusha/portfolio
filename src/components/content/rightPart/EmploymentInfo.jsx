@@ -27,10 +27,10 @@ function EmploymentInfo() {
                         <p>- Collaborating with software developers and designers.</p>
                         <p>- Creation of responsive web-pages using HTML/CSS.</p>
                         <p>- Worked on Cross-Browser compatibility and fixed the bugs for several browsers.</p>
-                        <p>- Worked in RESTful web services to integrate between Server side to Client Side</p>
-                        <p>- Worked in using React JS components, Forms, Events, Keys, Router, Animations, and Flux
+                        <p>- Worked in RESTful web services to integrate between Server side and Client Side</p>
+                        <p>- Worked using React JS components, Forms, Events, Keys, Router, Animations, and Flux
                             concept.</p>
-                        <strong>Used Tools, Technologies: JavaScripts/CSS/HTML, React, Redux, react Hooks, Git, CSS
+                        <strong>Tools/Technologies applied: JavaScripts/CSS/HTML, React, Redux, react Hooks, Git, CSS
                             modules, Styled-components</strong>
                     </div>
                 </div>
@@ -44,23 +44,22 @@ function EmploymentInfo() {
                         </h3>
                         <p>- Development and maintenance of financial applications for banks, database design,
                             database optimization.</p>
-                        <p>- Participation in projects for the implementation, development and development of solutions
-                            in the internal processes of the company.</p>
+                        <p>- Participation in implementation projects and development; creation of solutions
+                            for the internal processes of the company.</p>
                         <p>- Analysis of existing developments, preparation of recommendations for optimization and
                             refactoring of existing solutions. </p>
-                        <p>- Communicate with the client to understand the requirement of the website, gained experience
-                            in project planning, involsved in writing the Project Design Document and Project Plan
+                        <p>- Communication with the client to understand the requirements for website, gained experience
+                            in project planning, involved in writing the Project Design Document and Project Plan
                             Document.</p>
-                        <p>- Worked on an Agile (Scrum) Development Team to deliver regular updates to business team
-                            and project managers. Interacted with Testing Team, Scrum Masters and Business Analysts
-                            for fixing of Issues.</p>
-                        <p>- Used JIRA as the bug tracking ystem to track and maintain the history of bugs/issues on
-                            everyday basis.</p>
+                        <p>- Worked as a part of an Agile (Scrum) Development Team to deliver regular updates to business team
+                            and project managers. Interacted with QA Team, Scrum Masters and Business Analysts
+                            for issues fixing.</p>
+                        <p>- Used JIRA bug tracking system on everyday basis.</p>
                         <p>- Integrating with third-party services.</p>
                         <p>- Troubleshooting & Bugs fixes.</p>
                         <p>- Mentoring new employees</p>
                         <p>- Consulting users on the functionality of embedded solutions.</p>
-                        <strong>Used Tools, Technologies: C#, XML, SQL, MS SQL Server, Visual Studio 2010-2012, Jira,
+                        <strong>Tools/Technologies applied: C#, XML, SQL, MS SQL Server, Visual Studio 2010-2012, Jira,
                             Trello, Agile (SCRUM)</strong>
                     </div>
                 </div>
@@ -75,8 +74,8 @@ function EmploymentInfo() {
                         <p>- Created landing pages.</p>
                         <p>- Designed the web pages using HTML/CSS and deploy the script using JavaScript.</p>
                         <p>- Developed the logos and images using Adobe Photoshop.</p>
-                        <p>- Setting up and maintaining contextual advertising Yandex.Direct, Google AdSense.</p>
-                        <strong>Used Tools, Technologies: HTML/CSS/JavaScripts, Yandex.Direct, Google AdSense,
+                        <p>- Set up and maintained contextual advertising using Yandex.Direct, Google AdSense.</p>
+                        <strong>Tools/Technologies applied: HTML/CSS/JavaScripts, Yandex.Direct, Google AdSense,
                             Adobe Photoshop.</strong>
                     </div>
                 </div>

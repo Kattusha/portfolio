@@ -17,7 +17,7 @@ function AuthorCard() {
                 <div className={styles.authorContent}>
                     <h1 className={styles.authorName}>
                         <strong>Hello!</strong> I am Kate, <br/>
-                        I am frontend developer
+                        I am a frontend developer
                     </h1>
                     <div className={styles.skillTags}>
                         <ul>
