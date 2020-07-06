@@ -3,9 +3,8 @@ import styles from './AuthorCard.module.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {fab} from "@fortawesome/free-brands-svg-icons";
-import {fas} from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, fas);
+library.add(fab);
 
 function AuthorCard() {
     return (
@@ -42,7 +41,7 @@ function AuthorCard() {
                     </div>
                     <div className={styles.authorLink}>
                         <button>
-                            <FontAwesomeIcon icon={['fas', 'arrow-circle-down']} className="icon-button"/>
+                            <FontAwesomeIcon icon={'arrow-circle-down'} className="icon-button"/>
                             Download Resume
                         </button>
                         <div className={styles.social}>

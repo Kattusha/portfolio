@@ -24,8 +24,8 @@ a:hover{
     /*border-bottom: 1px solid #03a87c;*/
     /*color: rgba(2, 158, 116, 1);*/
 }
-a:active {
-    /*border-bottom: 1px solid #03a87c;*/
+a.activeLink {
+    color: #03a87c;
 }
 
 @media (max-width: 375px) {
