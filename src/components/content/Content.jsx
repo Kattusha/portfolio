@@ -9,7 +9,6 @@ import {Redirect, Route} from "react-router-dom";
 import Portfolio from "./rightPart/Portfolio";
 import SkillsInfo from "./rightPart/SkillsInfo";
 
-// all project paths
 export const HOME_PATH = '/home';
 export const WORK_PATH = '/work';
 

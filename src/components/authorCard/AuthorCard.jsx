@@ -51,12 +51,6 @@ function AuthorCard() {
                             <a href="" className={styles.linkedin}>
                                 <FontAwesomeIcon icon={['fab', 'linkedin']}/>
                             </a>
-                            {/*<a href="" className={styles.facebook}>*/}
-                            {/*    <FontAwesomeIcon icon={['fab', 'facebook']}/>*/}
-                            {/*</a>*/}
-                            {/*<a href="" className={styles.instagram}>*/}
-                            {/*    <FontAwesomeIcon icon={['fab', 'instagram']}/>*/}
-                            {/*</a>*/}
                         </div>
                     </div>
                 </div>
